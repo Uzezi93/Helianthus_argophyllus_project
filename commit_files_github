@@ -1,0 +1,13 @@
+# Access remote repo with key token (expires in 30 days)
+
+git remote set-url origin https://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@github.com/Uzezi93/Helianthus_argophyllus_project.git
+
+# Add all files to remote git repo
+git add .
+
+# Commit changes on git remote server
+git commit -m "commit a new file"
+
+# Push commited changes
+git push -u origin main
+
